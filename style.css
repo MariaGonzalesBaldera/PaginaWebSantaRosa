@@ -277,6 +277,12 @@ a{
 
 
 @media (max-width:600px) {
+  .div-colaboration{
+    display: none;
+  }
+  .div-header{
+    margin-top: -5.6rem;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: relative;
@@ -335,7 +341,7 @@ a{
     margin-right: -1rem;
   }
   #div-header.hovered{
-    margin-top: -3.3rem;
+    margin-top: -5.6rem;
   }
   .div-footer{
     margin-left: -3.5rem;
