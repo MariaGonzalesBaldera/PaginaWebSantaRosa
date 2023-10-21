@@ -350,8 +350,15 @@ a{
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .section-principal{
-    margin-left: -3.5rem;
+  .nav{
+    margin-left: -5rem;
+  }
+  .section-principal,.div-imagen{
+    margin-left: -4rem;
+  }
+  .nav-links a{
+    display: flex;
+    max-width: 9rem;
   }
   .div-title> p{
     margin-top: 2rem;
