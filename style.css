@@ -343,3 +343,20 @@ a{
     margin-bottom: 2rem;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .section-principal{
+    margin-left: -3.5rem;
+  }
+  .div-title> p{
+    margin-top: 2rem;
+  }
+  .button-colaboration{
+    margin-left: 5rem;
+  }
+  .div-footer{
+    margin-left: -3rem;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 2rem;
+  }
+}
