@@ -20,7 +20,7 @@
 			</div>
 			<div id="div-header" class="div-header">
 				<div class="div-imagen">
-					<img src="image/SantaRosaDeLima.jpg" alt="Santa Rosa de Lima">
+					<img class="img-santa-rosa" src="image/SantaRosaDeLima.jpg" alt="Santa Rosa de Lima">
 					<h4>Santa Rosa de Lima</h4>
 
           <div class="nav">
@@ -34,25 +34,21 @@
             </div>
             
             <div class="nav-links">
-              <a href="#" target="_blank">Controversiva</a>
-              <a href="#modal1">Triptico</a>
-              <a href="#" target="_blank">Contacto</a>
-              <a href="#" target="_blank">Conocenos</a>
-              <a href="#" target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="#">CONTROVERSIA</a>
+              <a href="#modal1" onclick="openModal()">INVITACIONES</a>
+              <a href="#">CONOCENOS</a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
             </div>
           </div>
           <!-- Inicio modal -->
-          <div id="modal1" class="modalmask">
-            <div class="modalbox movedown">
-                <a href="#close" title="Close" class="close">X</a>
-                <div class="div-img-modal">
-                  <img class="img-modal" src="image/parte1.png" alt="">
-                  <img class="img-modal" src="image/parte2.png" alt="">
-                </div>
+          <div class="modal-container" id="modal">
+            <div class="modal-content">
+                <span class="modal-close" onclick="closeModal()">&times;</span>
+                <img class="img-triptico" src="image/parte1.png" alt="">
+                <img class="img-triptico" src="image/parte2.png" alt="">
             </div>
         </div>
           <!-- Fin modal -->
-
 				</div>
 			</div>
       <div class="div-title">
