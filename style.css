@@ -137,10 +137,19 @@ h4 {
 }
 .div-body-text {
   margin-top: 0.5rem;
-  display: flex;
+  display: inline-block;
   text-align: justify;
   max-width: 92.5%;
   margin-bottom: 8rem;
+  line-height:1.8rem ;
+  letter-spacing: .1rem;
+}
+.img-principal{
+  min-width: 50%;
+  max-height: 15rem;
+  margin: 1.3rem;
+  display: inline-block;
+  float: right;
 }
 .div-text-secondary {
   position: relative;
@@ -367,6 +376,10 @@ a {
     min-width: 15rem;
     max-height: 10rem;
   }
+  .img-principal{
+    min-width: 90%;
+    min-height: auto;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -396,6 +409,10 @@ a {
   .img-triptico{
     min-width: 31.5rem;
     max-height: 20rem;
+  }
+  .img-principal{
+    min-width: 90%;
+    min-height: auto;
   }
 }
 
