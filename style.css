@@ -153,6 +153,8 @@ h4 {
 }
 .div-text-secondary {
   position: relative;
+  max-width: 80%;
+  text-align: start;
 }
 .div-text-secondary h3 {
   color: #3a3a63;
