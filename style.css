@@ -112,7 +112,7 @@ h4 {
   padding-left: 6rem;
 }
 
-.div-text-principal h2 {
+.div-text-principal h1 {
   color: #3a3a63;
 }
 
@@ -413,7 +413,7 @@ a {
   .img-principal{
     min-width: 90%;
     min-height: auto;
-  }
+    }
 }
 
 .modal-container {
