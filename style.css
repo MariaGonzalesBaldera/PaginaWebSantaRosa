@@ -188,7 +188,7 @@ footer {
       rgba(255, 255, 255, 0),
       rgba(58, 58, 99, 1)
     ),
-    url("image/fondo-footer3.jpg");
+    url("image/fondo-footer3.webp");
 
   max-width: calc(100% - 0rem);
   min-height: 30rem;
@@ -381,6 +381,14 @@ a {
   .img-principal{
     min-width: 90%;
     min-height: auto;
+  }
+  .div-title{
+    margin-left: -4rem;
+  }
+  .img-principal{
+    display: flex;
+    border: solid 1px tomato;
+    max-width: 60%;
   }
 }
 
