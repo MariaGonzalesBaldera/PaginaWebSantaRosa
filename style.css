@@ -48,11 +48,9 @@ main {
   width: fit-content;
   display: flex;
   gap: 1rem;
+  text-align: "center";
 }
-.div-dato p {
-  margin: 0rem;
-  padding-top: 0.5rem;
-}
+
 .button-colaboration {
   cursor: pointer;
   display: grid;
@@ -69,12 +67,13 @@ main {
   background-color: #3a3a63;
   transition: transform 5s;
   display: flex;
-  position: fixed;
+  position: absolute;
   z-index: 5;
 }
 #div-header.hovered {
-  margin-top: -2.5rem;
-}
+  margin-top: -4.3rem;
+  position: fixed;
+  }
 .div-imagen {
   position: relative;
   display: flex;
